@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "esnext", // Use the latest ECMAScript version
+    "module": "ESNext", // Use the latest module system
+    "baseUrl": "src", // This makes imports relative to the src folder
+    "paths": {
+      "@/*": ["*"] // Allow using "@" as an alias for src
+    }
+  },
+  "include": [
+    "src/**/*" // Include all JavaScript files in the src folder
+  ],
+  "exclude": [
+    "node_modules" // Exclude the node_modules folder
+  ]
+}
